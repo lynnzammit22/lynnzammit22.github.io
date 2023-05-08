@@ -441,9 +441,7 @@ h6 {
     #page-profile .profile {
         margin: 0 auto 20px auto;
     }
-}
 
-@media (max-width: 480px) {
     .grid {
         display: flex;
         flex-wrap: wrap;
