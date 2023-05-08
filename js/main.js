@@ -31,7 +31,7 @@ $(document).ready(function() {
         animation: 'random',
         animationDuration: 20000,
         slides: [{
-            src: 'images/portfolio/Photos/34.jpg'
+            src: './images/portfolio/Photos/34.JPG'
         }]
     });
 
