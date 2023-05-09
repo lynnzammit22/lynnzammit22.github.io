@@ -198,12 +198,13 @@ h6 {
 }
 
 #grid .mix {
-    width: 200px;
+    width: calc(33.33% - 40px);
+    max-width:  200px;
     height: auto;
-    margin: 20px;
+    margin: 10px 10px auto auto;
     color: #fff;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
     vertical-align: top;
     position: relative;
     text-align: left;
