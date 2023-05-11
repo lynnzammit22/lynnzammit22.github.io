@@ -12,6 +12,10 @@ $(document).ready(function() {
 
   updateActiveNavItem();
 
+  $('.nav-link').on('click', function() {
+    updateActiveNavItem();
+  });
+
   /* For Bootstrap current state on portfolio sorting */
   $('ul.nav-pills li').on('click', function() {
     $('ul.nav-pills li.active').removeClass('active');
