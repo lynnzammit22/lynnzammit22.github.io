@@ -187,6 +187,11 @@ h6 {
     justify-content: center;
 }
 
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
 .grid-wrapper{
     max-width: 100%;
     width: 100%;
@@ -199,7 +204,7 @@ h6 {
 
 #grid .mix {
     width: calc(33.33% - 40px);
-    max-width:  200px;
+    max-width: 200px;
     height: auto;
     margin: 10px 10px auto auto;
     color: #fff;
@@ -413,7 +418,8 @@ h6 {
 }
 
 /* ========================================================================== Responsive Settings ========================================================================== */
-@media (max-width: 479px) {
+@media screen and (max-width: 768px) {
+
     #page-welcome header h1 {
         font-size: 2em;
     }

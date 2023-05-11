@@ -41,10 +41,10 @@ $(document).ready(function() {
         var $container = $('.grid-wrapper');
         $container.isotope({
             filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
+            layoutMode: 'masonry',
+            masonry: {
+                columnWidth: '.mix',
+                isFitWidth: true
             }
         });
 
