@@ -1,5 +1,5 @@
 function updateActiveNavItem() {
-  const hash = window.location.hash;
+  const hash = window.location.hash || '#page-welcome';
   $('.nav-item.active').removeClass('active');
   $(`a.nav-link[href="${hash}"]`).closest('.nav-item').addClass('active');
   $('.navbar-toggler').attr('aria-expanded', 'false').toggleClass('collapsed', true); 
