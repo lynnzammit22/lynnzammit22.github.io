@@ -41,9 +41,7 @@ $(document).ready(function() {
         var $container = $('.grid-wrapper');
         $container.isotope({
             filter: '*',
-            layoutMode: 'masonry',
             masonry: {
-                columnWidth: '.mix',
                 isFitWidth: true
             }
         });

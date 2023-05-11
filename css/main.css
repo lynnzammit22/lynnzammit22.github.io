@@ -203,8 +203,7 @@ h6 {
 }
 
 #grid .mix {
-    width: calc(33.33% - 40px);
-    max-width: 200px;
+    width: 200px;
     height: auto;
     margin: 10px 10px auto auto;
     color: #fff;
