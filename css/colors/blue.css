@@ -1,31 +1,40 @@
 /* Blue - #3498db */
 
-
-a:link,a:visited,.navbar-expand-lg .navbar-nav>li>a:hover, 
-.navbar-expand-lg .navbar-nav>li>a:focus,a:hover,a:active,.navbar-expand-lg .navbar-nav>.active>a, 
-.navbar-expand-lg .navbar-nav>.active>a:hover, 
-.navbar-expand-lg .navbar-nav>.active>a:focus{
-	color:#3498db;
+/* Shared link styles */
+a:link,
+a:visited,
+a:hover,
+a:focus {
+  color: #3498db;
 }
 
-.spacer,.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus,#grid .mix .overlay {
-
-background: #3498db;
+/* Active nav item styles */
+ul.navbar-nav .nav-item.active,
+ul.navbar-nav .nav-item.active > a {
+  background: #3498db;
+  color: #fff !important;
+  border-radius: 0.375rem;
 }
 
-#page-contact{
-	background: #3498db;
-	color:#fff;
+/* Shared background styles */
+.spacer,
+#grid .mix .overlay,
+.nav-pills > li.active > a,
+#page-contact {
+  background: #3498db;
+  color: #fff;
 }
 
-#page-contact .spacer{
-	background: #fff;
+/* Contact page styles */
+#page-contact .spacer {
+  background: #fff;
 }
 
-#page-contact .section-title{
-	color:#fff;
+#page-contact .section-title {
+  color: #fff;
 }
 
+/* Primary button styles */
 .btn.btn-primary {
   background-color: transparent;
   border: 2px solid #fff;
@@ -35,7 +44,7 @@ background: #3498db;
 }
 
 .btn.btn-primary:hover,
-.btn.btn-primary:active{
+.btn.btn-primary:active {
   background: #fff;
-  color:#3498db;
+  color: #3498db;
 }
